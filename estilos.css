@@ -5,6 +5,8 @@
 }
 body{
     background: url(imagenes/bg2.jpg);
+    background-repeat: no-repeat;   
+    background-size: auto;
 }
 a{
     text-decoration: none;
@@ -101,10 +103,16 @@ a{
                 font-size: 13px;
                 letter-spacing: 1px;
                 margin: 10px 10px 0 10px;
-                background: #ececec; 
+                background:rgba(128, 128, 128, 0.5); 
+                border-radius: 5px;
+                background-color:rgba(128, 128, 128, 0.5); ;
+                margin-bottom: 10px;
+
             }
             .article img{
                 width: 100%;
+                height: auto;
+                border-radius: 5px 5px 0 0;
             }
             .article a{
                 color: #ffff;
@@ -140,9 +148,10 @@ a{
                 margin-top: 9px;
                 margin-left: 20px;
                 margin-right: 10px;
+                color: white;
             }
             .navegacion{
-              background: #000;
+              background: rgba(128, 128, 128, 0.5);;;
               flex: 1 1 100%; 
               margin: 10px 10px 0 0px; 
 
@@ -174,7 +183,7 @@ a{
             }
           
     .footer{
-    background: #000;
+    background: rgba(128, 128, 128, 0.5);;
     display: flex;
     justify-content: center;  
     margin-top: 10px;  
